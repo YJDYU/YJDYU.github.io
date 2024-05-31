@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이력서</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .photo {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .photo img {
+            max-width: 150px;
+            border-radius: 50%;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section p {
+            margin: 5px 0;
+        }
+        .contact, .university {
+            display: flex;
+            justify-content: space-between;
+        }
+        .contact div, .university div {
+            width: 48%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>이름 (한글)</h1>
+        <h2>Name (English)</h2>
+
+        <div class="photo">
+            <img src="profile.jpg" alt="Profile Photo">
+        </div>
+
+        <div class="section contact">
+            <div>
+                <h2>이메일 주소</h2>
+                <p>학교메일@example.com</p>
+            </div>
+            <div>
+                <h2>기술 스택</h2>
+                <p>언어: Python, Java, C++</p>
+                <p>도구: Git, Docker, VSCode</p>
+            </div>
+        </div>
+
+        <div class="section university">
+            <div>
+                <h2>대학 정보</h2>
+                <p>학교: 서울대학교</p>
+                <p>학과: 컴퓨터공학과</p>
+                <p>입학년도: 2020년</p>
+            </div>
+            <div>
+                <h2>기술 개발 경험</h2>
+                <p>진행중인 수업: 인공지능, 데이터베이스</p>
+                <p>고등학교 때 학습했던 내용: 웹 개발 기초, 알고리즘</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>관심 기술 분야</h2>
+            <p>서비스: 클라우드 컴퓨팅, 데이터 분석</p>
+            <p>기술명: AWS, TensorFlow</p>
+        </div>
+
+        <div class="section">
+            <h2>기타</h2>
+            <p>사진 포함, 링크드인 프로필 등 추가 정보</p>
+        </div>
+    </div>
+</body>
+</html>
+
